@@ -1,0 +1,146 @@
+/* Guransh Verma, Student Number 8972133 */
+
+/* General styles */
+body {
+    font-family: Arial, sans-serif;
+    background: linear-gradient(to right, #ff7e5f, #feb47b);
+    color: #333;
+    margin: 0;
+    padding: 0;
+    max-width: 1200px;
+    margin: auto;
+}
+
+header, footer {
+    background: linear-gradient(to right, #0066cc, #3399ff);
+    color: #fff;
+    padding: 20px;
+    text-align: center;
+}
+
+h1 {
+    font-size: 3em;
+    font-weight: bold;
+}
+
+nav ul {
+    list-style-type: none;
+    padding: 0;
+}
+
+nav ul li {
+    display: inline;
+    margin-right: 15px;
+}
+
+nav ul li a {
+    text-decoration: none;
+    color: #fff;
+    padding: 10px 20px;
+    border-radius: 5px;
+    background: #0059b3;
+}
+
+nav ul li a:hover {
+    background: #3399ff;
+}
+
+main {
+    padding: 20px;
+}
+
+.contact-section {
+    display: flex;
+    justify-content: space-between;
+    align-items: flex-start;
+    margin-top: 20px;
+}
+
+.contact-info {
+    background-color: #2e004f;
+    color: #fff;
+    padding: 20px;
+    border-radius: 10px;
+    width: 45%;
+}
+
+.contact-info h2 {
+    color: #ff66cc;
+}
+
+.contact-info p {
+    margin: 10px 0;
+}
+
+.contact-info .social-icons a {
+    color: #ff66cc;
+    margin: 0 10px;
+    text-decoration: none;
+    font-size: 1.5em;
+}
+
+.contact-form-wrapper {
+    background-color: #4e005f;
+    padding: 20px;
+    border-radius: 10px;
+    width: 45%;
+}
+
+.contact-form label {
+    display: block;
+    margin: 10px 0 5px;
+    color: #fff;
+}
+
+.contact-form input,
+.contact-form select,
+.contact-form textarea {
+    width: 100%;
+    padding: 10px;
+    font-size: 1em;
+    border-radius: 5px;
+    border: 1px solid #ccc;
+    margin-bottom: 10px;
+}
+
+.contact-form input[type="submit"] {
+    background-color: #ff66cc;
+    color: #fff;
+    border: none;
+    cursor: pointer;
+    font-size: 1.2em;
+    padding: 15px;
+}
+
+.contact-form input[type="submit"]:hover {
+    background-color: #ff33aa;
+}
+
+aside {
+    background-image: url('../images/aside-bg.jpg');
+    padding: 20px;
+    margin-top: 20px;
+    border-radius: 10px;
+}
+
+aside ul {
+    list-style-type: none;
+    padding: 0;
+}
+
+aside ul li {
+    margin-bottom: 10px;
+}
+
+aside ul li a {
+    text-decoration: none;
+    color: #007BFF;
+}
+
+aside ul li a:hover {
+    color: #FF5733;
+}
+
+footer {
+    font-size: 0.9em;
+}
